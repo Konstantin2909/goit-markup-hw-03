@@ -13,14 +13,39 @@
 --bg-color-dark: #2f303a;
 --bg-color-light: #f5f4fa;
 }
-/* reset styles */
-ul {
-  list-style: none;
-}
+
 .link {
   text-decoration: none;
   color: currentColor;
 }
+
+/* ----------RESET STYLES RUN---------- */
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------RESET STYLES END---------- */
+
 
 /* ----------BODY---------- */
 
@@ -40,10 +65,11 @@ body {
   left: 200px;
   width: 1200px;
   height: 80px;
+  padding: 0 15px 0 15px;
 }
 .header-label {
   position: absolute;
-  top: 0px;
+  top: 24px;
   left: 15px;
   font-family: var(--font-second);
   font-style: normal;
@@ -63,14 +89,14 @@ body {
 }
 .header-flx-block-one {
   position: absolute;
-  top: 15px;
+  top: 30px;
   left: 238px;
   width: auto;
   display: flex;
   flex-direction: row;
 }
 .header-text-1 {
-  margin: 0 25px 0 25px;
+  margin: 32px 25px 32px 25px;
   height: 16px;
   font-weight: 500;
   font-size: 14px;
@@ -79,14 +105,14 @@ body {
 }
 .header-flx-block-two {
   position: absolute;
-  top: 15px;
+  top: 32px;
   right: 15px;
   width: auto;
   display: flex;
   justify-content: end;
 }
 .header-text-2 {
-  margin: 0 0 0 50px;
+  margin: 32px 0 32px 50px;
   height: 16px;
   font-weight: 500;
   font-size: 14px;
@@ -149,13 +175,14 @@ body {
   left: 200px;
   width: 1200px;
   height: 101px;
+  padding: 0 15px 0 15px;
 }
 .unnamed-flx-block {
   position: absolute;
   width: 1170px;
   height: 101px;
-  margin: 0 0 0 0;
-  padding: 0 15px 0 15px;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: stretch;
   gap: 30px;
@@ -164,19 +191,18 @@ body {
 .unnamed-txt-box-two,
 .unnamed-txt-box-three,
 .unnamed-txt-box-four {
-  top: 0px;
   width: 270px;
   height: 101px;
 }
 .unnamed-title {
-  margin-top: 0px;
+  margin: 0 0 0 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
 }
 .unnamed-text {
-  margin-bottom: 0px;
+  margin: 10px 0 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -215,7 +241,7 @@ body {
 .our-container {
   position: absolute;
   width: 1200px;
-  height: 638px;
+  height: 648px;
   left: 200px;
   top: 0px;
 }
@@ -223,7 +249,7 @@ body {
   position: absolute;
   left: 465px;
   top: 94px;
-  margin: 0 0 0 0;
+  margin: 0;
   width: 300px;
   height: 94px;
   font-weight: 700;
@@ -401,7 +427,7 @@ body {
   align-content: flex-start;
   gap: 30px;
   margin: 0px;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 0px 0px 0px;
 }
 .portfolio-project-1,
 .portfolio-project-2,
